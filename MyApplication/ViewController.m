@@ -141,7 +141,7 @@
                                           }completion:^(BOOL finish){}];
                      }];
     
-    //[UIView commitAnimations];
+    [UIView commitAnimations];
 }
 
 - (void)click:(UIBarButtonItem *)item
